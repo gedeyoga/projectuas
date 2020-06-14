@@ -38,3 +38,15 @@ section:nth-child(2){
 	max-width: 430px;
 }
 .form-login h2{ font-family: 'bold'; }
+.form-login form{ margin-top: 50px; }
+.form-login button{
+	background-color: #00909E;
+	width: 100%;
+	color: white;
+	font-family: 'bold';
+	transition: 0.5s ease-in;
+}
+.form-login button:hover{
+	background-color: #167983;
+	color: white;
+}
