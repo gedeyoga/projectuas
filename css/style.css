@@ -1,0 +1,40 @@
+@font-face{
+    src: url(../font/Roboto-Bold.ttf);
+    font-family: 'bold';
+}
+@font-face{
+    src: url(../font/Roboto-Medium.ttf);
+    font-family: 'medium';
+}
+@font-face{
+    src: url(../font/Roboto-Regular.ttf);
+    font-family: 'regular';
+}
+section	{
+	padding: 20px;
+	height: 100vh;
+}
+section:nth-child(1){
+	flex-grow: 1;
+	background-color: #27496D;
+	box-sizing: border-box;
+	padding-bottom: 0px;
+}
+.head{
+	max-width: 350px;
+	margin-top: 50px;
+}
+.head img{ margin-bottom: 50px;}
+.head h2{
+	text-transform: uppercase;
+	font-family: 'bold';
+	color: #DAE1E7;
+}
+section:nth-child(2){
+	flex-grow: 5;
+	background-color: white;
+}
+.form-login{
+	max-width: 430px;
+}
+.form-login h2{ font-family: 'bold'; }
