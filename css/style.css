@@ -130,3 +130,89 @@ section:nth-child(2){
 	background-color: #f3f3f3;
 	overflow-y: scroll;
 }
+.menu{
+	width: 100%;
+	padding: 40px;
+}
+.menu a{
+	color: #333;
+}
+.menu a:hover{
+	color: #333;
+}
+.menu span{
+	font-family: 'regular';
+}
+.menu .profile{
+	font-family: 'regular';
+	font-size: 15px;
+	overflow: hidden;
+}
+.menu .img-profile{
+	width: 40px;
+	height: 40px;
+	background-color: grey;
+	border-radius: 25px;
+	margin-left: 15px;
+	overflow: hidden;
+}
+.menu .profile .img-profile img{
+	width: 100%;
+}
+.data{
+	padding: 40px;
+	padding-top: 0px;
+}
+.data .title{
+	margin-bottom: 30px;
+}
+.data .title h3{
+	font-size: 25px;
+	font-family: 'bold';
+}
+.data .banner{
+	width: 100%;
+	height: 480px;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 0px;
+}
+.data .banner label{
+	font-family: 'bold';
+	font-size: 20px;
+	color: #27496D;
+	margin-top: 30px;
+}
+.data .banner span{
+	font-family: 'regular';
+	color: #989898;
+}
+.data .statistic{
+	width: 100%;
+	padding: 10px;
+}
+.data .statistic label{
+	font-size: 18px;
+	font-family: 'bold';
+}
+.data .statistic .box-stats{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.box-tosca{
+	background-color: #00909E;
+	color: #DAE1E7;
+}
+.box-white{
+	background-color: white;
+	color: #333;
+}
+.data .statistic .box-stats label{
+	font-size: 25px;
+	font-family: 'bold';
+}
