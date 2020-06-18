@@ -84,5 +84,8 @@ ALTER TABLE users
 ADD CONSTRAINT fk_mahasiswa FOREIGN KEY (nimMhs) REFERENCES mahasiswa(nimMhs) ON DELETE CASCADE;
 INSERT INTO users VALUES
 (NULL , '10101010' , '123456' , '1');
+ALTER TABLE users
+ADD imgUsers VARCHAR(50) NULL;
+UPDATE users SET imgUsers = 'default.png' WHERE idUsers = 1;
 /* TABLE USERS */
 
