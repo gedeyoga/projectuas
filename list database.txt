@@ -1,0 +1,23 @@
+users
+- idUsers
+- nimMhs
+- passUsers
+- idRole
+role
+- idRole
+- namaRole
+mahasiswa
+- nimMhs
+- namaMhs
+- tglLahirMhs
+- jkMhs
+- telpMhs
+- emailMhs
+- idJbtn
+- idJrs
+jabatan
+- idJbtn
+- namaJbtn
+jurusan
+- idJrs
+- namaJrs

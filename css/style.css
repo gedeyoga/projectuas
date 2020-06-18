@@ -94,7 +94,7 @@ section:nth-child(2){
 	background-color: white;
 	
 }
-.sidebar ul li a , .sidebar ul li a svg path{
+.sidebar ul li a , .sidebar ul li a i{
 	transition: 0.5s ease-in-out;
 }
 .sidebar ul li a:hover{
@@ -102,8 +102,8 @@ section:nth-child(2){
 	color: #DAE1E7;
 }
 
-.sidebar ul li a:hover svg path{
-	fill : #DAE1E7;
+.sidebar ul li a:hover i{
+	color : #DAE1E7;
 }
 .sidebar .icon-menu{
 	margin-right: 15px;
@@ -215,4 +215,90 @@ section:nth-child(2){
 .data .statistic .box-stats label{
 	font-size: 25px;
 	font-family: 'bold';
+}
+.logout{
+	margin-left: 25px;
+	font-size: 20px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	transition: 0.5s ease-in-out;
+}
+.logout:hover{
+	background-color: #DAE1E7;
+}
+.box-data{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+.box-data .img-data{
+	width: 60px;
+	height: 60px;
+	background-color: grey;
+	border-radius: 50px;
+	overflow: hidden;
+	margin-right: 15px;
+}
+.box-data .img-data img{
+	width: 100%;
+}
+.box-data .name-data h6{
+	font-family: 'bold';
+}
+.box-data .name-data span{
+	font-family: 'regular';
+	color: #989898;
+	font-size: 13px;
+}
+.box-data .other-data{
+	margin-top: 15px;
+}
+.box-data .other-data label{
+	font-family: 'bold';
+	color: #989898;
+	font-size: 13px;
+}
+.box-data .other-data small{
+	color: #B7B7B7;
+}
+.box-data .btn-data a{
+	padding: 5px 10px;
+	border-radius: 25px;
+	display: block;
+	margin-left: 5px;
+	font-family: 'bold';
+	color: #333;
+	font-size: 13px;
+}
+.box-data .btn-data .btn-red{
+	background-color: #DB2721;
+	color: white;
+}
+.box-data .btn-data .btn-grey{
+	background-color: #E2E2E2;
+	color: #989898;
+}
+.box-data .btn-data .btn-tosca{
+	background-color: #00909E;
+	color: white;
+}
+.box-data .btn-data a:hover{
+	text-decoration: none;
+}
+.title .btn-radius{
+	background-color: #DAE1E7;
+	color: #989898;
+	border-radius: 50px;
+	border: none;
+}
+.title .search input{
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #DAE1E7;
+	color: #989898;
+}
+.title .search input:focus{
+	border: 1px solid #989898;
 }
